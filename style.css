@@ -127,3 +127,28 @@ body {
         gap: 10px;
     }
 }
+
+.visual {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    .visual-text {
+        color: hsl(234, 85%, 45%);
+        font-weight: 600;
+    }
+    .visual-number {
+        color: hsl(240, 12%, 58%);
+        font-weight: 600;
+    }
+}
+.separation-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .action4 {
+        display: flex;
+        gap: 10px;
+    }
+}
