@@ -192,13 +192,10 @@ button:hover {
         grid-template-columns: 1fr 1fr;
         border-radius: 30px;
         overflow: hidden;
+        box-shadow: 1px 1px 4px hsl(222, 59%, 91%);
     }
     .result-content-box {
         border-radius: 30px;
-    }
-    .summary-content-box {
-        /* box-shadow: 1px 1px 3px hsl(241, 100%, 89%); */
-        /* border-radius: 30px; */
     }
     .result-content-box {
         h2 {
