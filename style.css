@@ -4,6 +4,7 @@
 }
 body {
     font-family: 'Hanken Grotesk';
+    box-sizing: border-box;
     background-color: hsl(221, 100%, 96%);
 }
 .summary-content-container {
@@ -177,5 +178,8 @@ button:hover {
     .summary-content-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .summary-content-box {
+        box-shadow: 1px 1px 3px hsl(241, 100%, 89%);
     }
 }
