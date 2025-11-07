@@ -172,14 +172,17 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-    body {
-        padding: 80px;
-    }
     .summary-content-container {
+        width: 650px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .summary-content-box {
         box-shadow: 1px 1px 3px hsl(241, 100%, 89%);
+    }
+    .result-content-box {
+        h2 {
+            margin-top: 80px;
+        }
     }
 }
