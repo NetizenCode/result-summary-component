@@ -63,11 +63,11 @@ body {
     }
     .reaction-number {
         font-weight: 600;
-        color: hsl(240, 12%, 50%);
+        color: hsl(240, 4%, 58%);
     }
-    .figure {
-        color: hsl(223, 30%, 14%);
-    }
+}
+.figure {
+    color: hsl(223, 30%, 14%);
 }
 .separation-1 {
     display: flex;
@@ -90,7 +90,7 @@ body {
         font-weight: 600;
     }
     .memory-number {
-        color: hsl(240, 12%, 50%);
+        color: hsl(240, 12%, 58%);
         font-weight: 600;
     }
 }
@@ -99,6 +99,30 @@ body {
     align-items: center;
     justify-content: space-between;
     .action2 {
+        display: flex;
+        gap: 10px;
+    }
+}
+.verbal {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    .verbal-text {
+        color: hsl(166, 100%, 37%);
+        font-weight: 600;
+    }
+    .verbal-number{
+        color: hsl(240, 12%, 58%);
+        font-weight: 600;
+    }
+}
+.separation-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .action3 {
         display: flex;
         gap: 10px;
     }
