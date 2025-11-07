@@ -4,12 +4,13 @@
 }
 body {
     font-family: 'Hanken Grotesk';
+    background-color: hsl(221, 100%, 96%);
 }
 .summary-content-container {
     margin: 30px auto;
 }
 .result-content-box {
-    border: 1px solid;
+    border: 1px solid hsl(221, 100%, 96%);
     border-radius: 15px;
     background-color: hsl(241, 81%, 54%);
     padding: 40px;
@@ -43,7 +44,7 @@ body {
     }
 }
 .summary-content-box {
-    border: 1px solid;
+    border: 1px solid hsl(221, 100%, 96%);
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     padding: 30px;
@@ -167,4 +168,14 @@ button {
 }
 button:hover {
     background-color: hsl(241, 81%, 54%);
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 80px;
+    }
+    .summary-content-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
